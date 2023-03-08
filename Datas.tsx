@@ -7,7 +7,7 @@ import {
   redux,
   tailwind,
   git,
-} from "./public/canvas/tech/";
+} from "./public/tech/index";
 
 export const menuItems: string[] = ["Hero"];
 export const HeroDescription: string =
