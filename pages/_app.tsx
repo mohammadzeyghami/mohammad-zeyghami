@@ -4,10 +4,12 @@ import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className="flex flex-col text-[white] ">
+    <div className="flex flex-col text-[white] Hero ">
       <Navbar />
 
-      <Component {...pageProps} />
+      <div className="pt-[150px]">
+        <Component {...pageProps} />
+      </div>
     </div>
   );
 }

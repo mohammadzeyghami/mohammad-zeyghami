@@ -11,7 +11,7 @@ const Navbar = () => {
       variants={navVariants}
       initial="hidden"
       animate="show"
-      className="fixed flex w-full px-[70px] justify-between "
+      className="fixed flex w-full px-[70px] justify-between z-50 "
     >
       <div className="flex items-center">
         <Image

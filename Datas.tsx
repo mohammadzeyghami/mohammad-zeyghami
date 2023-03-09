@@ -8,6 +8,17 @@ import {
   tailwind,
   git,
 } from "./public/tech/index";
+import {
+  SiNextdotjs,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiTailwindcss,
+  SiGit,
+  SiRedux,
+  SiReact,
+  SiTypescript,
+} from "react-icons/si";
 
 export const menuItems: string[] = ["Hero"];
 export const HeroDescription: string =
@@ -16,35 +27,39 @@ export const HeroDescription: string =
 export const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: SiHtml5,
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: SiCss3,
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: SiJavascript,
   },
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: SiTypescript,
   },
   {
     name: "React JS",
-    icon: react,
+    icon: SiReact,
   },
   {
     name: "Redux Toolkit",
-    icon: redux,
+    icon: SiRedux,
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: SiTailwindcss,
   },
 
   {
     name: "git",
-    icon: git,
+    icon: SiGit,
+  },
+  {
+    name: "next",
+    icon: SiNextdotjs,
   },
 ];
