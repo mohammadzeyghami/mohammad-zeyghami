@@ -7,3 +7,7 @@ export { default as react } from "./reactjs.png";
 export { default as redux } from "./redux.png";
 export { default as tailwind } from "./tailwind.png";
 export { default as typescript } from "./typescript.png";
+export { default as nextjs } from "./next.png";
+export { default as rapid } from "./rapid api.png";
+export { default as sanity } from "./sanity.png";
+export { default as bootstrap } from "./bootstrap.png";
