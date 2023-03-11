@@ -10,7 +10,9 @@ import {
   nextjs,
   bootstrap,
   rapid,
+  sanity,
 } from "./public/tech/index";
+import { Metaversus1, Metaversus2, Metaversus3 } from "./public/projects";
 
 export const menuItems: string[] = ["Hero"];
 export const HeroDescription: string =
@@ -45,7 +47,10 @@ export const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-
+  {
+    name: "bootstarp",
+    icon: bootstrap,
+  },
   {
     name: "git",
     icon: git,
@@ -58,8 +63,13 @@ export const technologies = [
     name: "rapidapi",
     icon: rapid,
   },
+
   {
-    name: "bootstarp",
-    icon: bootstrap,
+    name: "sanity",
+    icon: sanity,
   },
+];
+
+export const projects = [
+  { image: Metaversus1, Metaversus2, Metaversus3, name: "Metaversus" },
 ];

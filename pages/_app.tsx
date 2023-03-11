@@ -7,9 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <div className="flex flex-col text-[white] Hero ">
       <Navbar />
 
-      <div className="pt-[150px]">
-        <Component {...pageProps} />
-      </div>
+      <Component {...pageProps} />
     </div>
   );
 }

@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <motion.div
       id="Hero"
-      className="mx-auto w-full max-w-[600px]  xl:max-w-[1600px] flex flex-col xl:flex-row justify-center items-center gap-5  bg-color"
+      className="mx-auto w-full max-w-[600px] pt-[150px]  xl:max-w-[1600px] flex flex-col xl:flex-row justify-center items-center gap-5  bg-color"
     >
       <motion.div
         variants={slideIn("left", "", "", 1)}
