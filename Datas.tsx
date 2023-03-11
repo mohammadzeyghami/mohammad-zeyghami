@@ -12,7 +12,26 @@ import {
   rapid,
   sanity,
 } from "./public/tech/index";
-import { Metaversus1, Metaversus2, Metaversus3 } from "./public/projects";
+import {
+  Ecommerce1,
+  Ecommerce2,
+  Ecommerce3,
+  Ecommerce4,
+  Metaversus1,
+  Metaversus2,
+  Metaversus3,
+  Dashboard1,
+  Dashboard2,
+  Dashboard3,
+  Dashboard4,
+  Dashboard5,
+  youtube1,
+  youtube2,
+  modernportfolio1,
+  modernportfolio2,
+  modernportfolio3,
+  modernportfolio4,
+} from "./public/projects";
 
 export const menuItems: string[] = ["Hero"];
 export const HeroDescription: string =
@@ -71,5 +90,22 @@ export const technologies = [
 ];
 
 export const projects = [
-  { image: Metaversus1, Metaversus2, Metaversus3, name: "Metaversus" },
+  { image: Metaversus1, Metaversus2, Metaversus3, name: "Metaversus Landing" },
+  { image: Ecommerce1, Ecommerce2, Ecommerce3, Ecommerce4, name: "Ecommerce" },
+  {
+    image: Dashboard1,
+    Dashboard2,
+    Dashboard3,
+    Dashboard4,
+    Dashboard5,
+    name: "Dashboard Admin",
+  },
+  { image: youtube1, youtube2, name: "Youtube Clone" },
+  {
+    image: modernportfolio1,
+    modernportfolio2,
+    modernportfolio3,
+    modernportfolio4,
+    name: "Modern Portfolio",
+  },
 ];
