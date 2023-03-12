@@ -12,18 +12,18 @@ const Projects = () => {
       <motion.h2 className="font-bold text-[35px] text-center ">
         Some of Projects i Build
       </motion.h2>
-      <motion.div className="flex flex-wrap mt-[50px]">
+      <motion.div className="flex flex-wrap mt-[50px] gap-[20px]">
         {projects.map((project) => (
-          <motion.div className="flex flex-col lg:flex-row gap-5 bg-[#221A2E] rounded-md max-w-[700px] max-h-[700px]   m-5 ">
+          <motion.div className="flex flex-col  gap-5 bg-[#221A2E] mx-auto rounded-md w-[300px] h-[600px]  md:w-[500px] md:h-[530px]   m-5 ">
             <Image
               src={project.image[0]}
               alt={project.name}
-              className=" h-full w-full max-w-[300px] mx-auto rounded-md p-2  object-cover "
+              className=" w-[450px] h-[250px] mx-auto rounded-md p-3  object-cover "
             />
-            <div className="flex flex-col w-full text-center p-2 mt-2">
+            <div className="flex flex-1 flex-col w-full text-center p-2 mt-2">
               <h3 className="font-semibold text-[20px] ">{project.name}</h3>
               <div className="flex items-center h-[60%] ">
-                <p className="">{project.Description}</p>
+                <p className="w-full">{project.Description}</p>
               </div>
               <div className="flex w-full justify-center mt-4 gap-8">
                 <motion.div

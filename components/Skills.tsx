@@ -13,18 +13,18 @@ import {
 const Skills = () => {
   return (
     <motion.div
-      className=" mt-[100px] lg:mt-[200px] max-w-[1600px]  mx-auto"
+      className=" mt-[100px]  lg:mt-[200px] max-w-[1600px]  mx-auto"
       variants={staggerContainer(0.5, 0.2)}
       initial="hidden"
       animate="show"
     >
-      <TypingText
-        title="In these few years, I got acquainted with interesting technologies, you
-      can see some of them here"
-      />
+      <h2 className="text-center">
+        In these few years, I got acquainted with interesting technologies, you
+        can see some of them here
+      </h2>
 
       <motion.div
-        className="flex flex-wrap justify-center gap-5 lg:gap-10 items-center"
+        className="flex max-h-[600px] flex-wrap min-w-[100px]  flex-1 justify-center gap-5 lg:gap-10 items-center"
         variants={textContainer}
         initial="hidden"
         animate="show"

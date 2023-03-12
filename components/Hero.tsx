@@ -19,7 +19,7 @@ const Hero = () => {
         <Image
           src={heroImage}
           alt="profileImage"
-          className=" object-cover w-full px-[10px] max-h-[700px]  rounded-2xl "
+          className=" object-cover w-full  px-[10px] max-h-[700px]  rounded-2xl "
         />
       </motion.div>
       <motion.div
