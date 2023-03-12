@@ -8,17 +8,17 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <motion.div className="flex flex-col z-20 mt-[200px]  max-w-[1600px]  mx-auto">
+    <motion.div className="flex flex-col  mt-[200px]  max-w-[1600px]  mx-auto">
       <motion.h2 className="font-bold text-[35px] text-center ">
         Some of Projects i Build
       </motion.h2>
       <motion.div className="flex flex-wrap mt-[50px]">
         {projects.map((project) => (
-          <motion.div className="flex  gap-5 bg-[#221A2E] rounded-md w-[700px] h-[250px]   m-5 ">
+          <motion.div className="flex flex-col lg:flex-row gap-5 bg-[#221A2E] rounded-md max-w-[700px] max-h-[700px]   m-5 ">
             <Image
               src={project.image[0]}
               alt={project.name}
-              className=" h-full w-full max-w-[300px] rounded-md p-2  object-cover "
+              className=" h-full w-full max-w-[300px] mx-auto rounded-md p-2  object-cover "
             />
             <div className="flex flex-col w-full text-center p-2 mt-2">
               <h3 className="font-semibold text-[20px] ">{project.name}</h3>
