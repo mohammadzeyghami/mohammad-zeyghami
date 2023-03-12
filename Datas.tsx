@@ -95,28 +95,32 @@ export const projects = [
     image: [Metaversus1, Metaversus2, Metaversus3],
     name: "Metaversus Landing",
     Description: "Modern Next 13 Website With Framer Motion & Tailwind CSS",
-    Address: "Metaversus-Landing",
+    Address: "https://modern-nextsite.vercel.app/",
+    Github: "https://github.com/mohammadzeyghami/modern-nextsite",
   },
   {
     image: [Ecommerce1, Ecommerce2, Ecommerce3, Ecommerce4],
     name: "Ecommerce",
     Description:
       "this e-commerce application will include modern design and animations, the ability to add and edit products on the go using a Sanity, all advanced cart, and checkout functionalities, and most importantly, the complete integration with Stripe so that you can cover real payments.",
-    Address: "Ecommerce",
+    Address: "https://ecommerce-stripe-gamma.vercel.app/",
+    Github: "https://github.com/mohammadzeyghami/ecommerce-tailwindcss",
   },
   {
     image: [Dashboard1, Dashboard2, Dashboard3, Dashboard4, Dashboard5],
     name: "Dashboard Admin",
     Description:
       "this is a dashboard admin web site with react and mui 5  darkmode and ...",
-    Address: "Dashboard",
+    Address: "https://mz-admin-dashboard-mui.netlify.app/",
+    Github: "https://github.com/mohammadzeyghami/admin-dashboard",
   },
   {
     image: [youtube1, youtube2],
     name: "Youtube Clone",
     Description:
       "a responsive React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from your  Clone App",
-    Address: "Youtube-Clone",
+    Address: "https://github.com/mohammadzeyghami/youtube",
+    Github: "https://zeyghami-youtube.netlify.app",
   },
   {
     image: [
@@ -129,6 +133,7 @@ export const projects = [
     name: "Modern Portfolio",
     Description:
       "in this websites use 3D graphics and animations to bring their content to life.  ",
-    Address: "Modern-portfolio",
+    Address: "https://github.com/mohammadzeyghami/zeyghami-portfolio",
+    Github: "https://mz-3dportfolio.netlify.app/",
   },
 ];
