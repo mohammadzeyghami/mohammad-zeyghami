@@ -12,6 +12,7 @@ import {
   rapid,
   sanity,
 } from "./public/tech/index";
+import { uni, teamWork, habits } from "./public/about me";
 import {
   Ecommerce1,
   Ecommerce2,
@@ -135,5 +136,25 @@ export const projects = [
       "in this websites use 3D graphics and animations to bring their content to life.  ",
     Address: "https://github.com/mohammadzeyghami/zeyghami-portfolio",
     Github: "https://mz-3dportfolio.netlify.app/",
+  },
+];
+export const aboutData = [
+  {
+    img: uni,
+    title: "Arak Falaq Azad University",
+    description:
+      "In 2023, I received a bachelor's degree in software from this university",
+  },
+  {
+    img: teamWork,
+    title: "Team Work",
+    description:
+      "In my opinion, group work and communicating with the group is one of the important features of every programmer. I enjoy working with other people, I am open to criticism, and I also enjoy helping others.",
+  },
+  {
+    img: habits,
+    title: "Habbits",
+    description:
+      "One of my pastimes is reading other people's codes, I really enjoy getting to know the style of each programmer's point of view towards the logic of the codes, and by doing this, I strengthen my algorithm writing power.",
   },
 ];
