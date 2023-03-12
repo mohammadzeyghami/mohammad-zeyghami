@@ -31,11 +31,12 @@ import {
   modernportfolio2,
   modernportfolio3,
   modernportfolio4,
+  modernportfolio5,
 } from "./public/projects";
 
 export const menuItems: string[] = ["Hero"];
 export const HeroDescription: string =
-  "Hello, my name is Mohammad Zaighmi, I am 23 years old, I am a front end developer with a more than +3 years of experience.";
+  "Hello, my name is Mohammad Zeyghmi, I am 23 years old, I am a frontend developer with a more than +3 years of experience.";
 
 export const technologies = [
   {
@@ -90,22 +91,44 @@ export const technologies = [
 ];
 
 export const projects = [
-  { image: Metaversus1, Metaversus2, Metaversus3, name: "Metaversus Landing" },
-  { image: Ecommerce1, Ecommerce2, Ecommerce3, Ecommerce4, name: "Ecommerce" },
   {
-    image: Dashboard1,
-    Dashboard2,
-    Dashboard3,
-    Dashboard4,
-    Dashboard5,
-    name: "Dashboard Admin",
+    image: [Metaversus1, Metaversus2, Metaversus3],
+    name: "Metaversus Landing",
+    Description: "Modern Next 13 Website With Framer Motion & Tailwind CSS",
+    Address: "Metaversus-Landing",
   },
-  { image: youtube1, youtube2, name: "Youtube Clone" },
   {
-    image: modernportfolio1,
-    modernportfolio2,
-    modernportfolio3,
-    modernportfolio4,
+    image: [Ecommerce1, Ecommerce2, Ecommerce3, Ecommerce4],
+    name: "Ecommerce",
+    Description:
+      "this e-commerce application will include modern design and animations, the ability to add and edit products on the go using a Sanity, all advanced cart, and checkout functionalities, and most importantly, the complete integration with Stripe so that you can cover real payments.",
+    Address: "Ecommerce",
+  },
+  {
+    image: [Dashboard1, Dashboard2, Dashboard3, Dashboard4, Dashboard5],
+    name: "Dashboard Admin",
+    Description:
+      "this is a dashboard admin web site with react and mui 5  darkmode and ...",
+    Address: "Dashboard",
+  },
+  {
+    image: [youtube1, youtube2],
+    name: "Youtube Clone",
+    Description:
+      "a responsive React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from your  Clone App",
+    Address: "Youtube-Clone",
+  },
+  {
+    image: [
+      modernportfolio1,
+      modernportfolio2,
+      modernportfolio3,
+      modernportfolio4,
+      modernportfolio5,
+    ],
     name: "Modern Portfolio",
+    Description:
+      "in this websites use 3D graphics and animations to bring their content to life.  ",
+    Address: "Modern-portfolio",
   },
 ];

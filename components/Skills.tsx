@@ -13,14 +13,14 @@ import {
 const Skills = () => {
   return (
     <motion.div
-      className="h-[60vh] mt-[100px] lg:mt-[200px] max-w-[1600px]  mx-auto"
+      className=" mt-[100px] lg:mt-[200px] max-w-[1600px]  mx-auto"
       variants={staggerContainer(0.5, 0.2)}
       initial="hidden"
       animate="show"
     >
       <TypingText
         title="In these few years, I got acquainted with interesting technologies, you
-        can see some of them here"
+      can see some of them here"
       />
 
       <motion.div
@@ -31,6 +31,7 @@ const Skills = () => {
       >
         {technologies.map((item) => (
           <motion.div
+            key={item.name}
             className="w-[70px] h-[70px]  rounded-full mt-[80px] relative"
             variants={textVariant(1.1)}
             initial="hidden"

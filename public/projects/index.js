@@ -12,7 +12,7 @@ export { default as Dashboard3 } from "./Dashboard3.png";
 export { default as Dashboard4 } from "./Dashboard4.png";
 export { default as Dashboard5 } from "./Dashboard5.png";
 export { default as youtube1 } from "./youtube 1.png";
-export { default as youtube2 } from "./youtube 2.png";
+export { default as youtube2 } from "./youtube 3.png";
 export { default as modernportfolio1 } from "./3d 1.png";
 export { default as modernportfolio2 } from "./3d 2.png";
 export { default as modernportfolio3 } from "./3d 3.png";
