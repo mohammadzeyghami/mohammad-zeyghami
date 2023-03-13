@@ -12,6 +12,14 @@ import {
   rapid,
   sanity,
 } from "./public/tech/index";
+import {
+  SiGithub,
+  SiTelegram,
+  SiInstagram,
+  SiLinkedin,
+  SiGmail,
+} from "react-icons/si";
+import { AiFillPhone } from "react-icons/ai";
 import { uni, teamWork, habits } from "./public/about me";
 import {
   Ecommerce1,
@@ -157,4 +165,12 @@ export const aboutData = [
     description:
       "One of my pastimes is reading other people's codes, I really enjoy getting to know the style of each programmer's point of view towards the logic of the codes, and by doing this, I strengthen my algorithm writing power.",
   },
+];
+export const contact = [
+  { icon: SiInstagram, name: "instagram" },
+  { icon: SiTelegram, name: "telegram" },
+  { icon: AiFillPhone, name: "phone" },
+  { icon: SiGmail, name: "gmail" },
+  { icon: SiLinkedin, name: "linkdin" },
+  { icon: SiGithub, name: "github" },
 ];

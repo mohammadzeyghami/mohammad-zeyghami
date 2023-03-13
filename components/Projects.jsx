@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <motion.div className="flex flex-col  mt-[200px]  max-w-[1600px]  mx-auto">
+    <motion.div className="flex flex-col mt-[200px] max-w-[1600px] mx-auto">
       <motion.h2 className="font-bold text-[35px] text-center ">
         Some of Projects i Build
       </motion.h2>

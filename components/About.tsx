@@ -2,14 +2,14 @@ import { aboutData } from "@/Datas";
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="flex flex-col  mt-[200px]  max-w-[1600px]  mx-auto">
+    <div className="flex flex-col  mt-[200px] w-full  max-w-[1600px] mx-auto">
       <h2 className="font-bold text-[35px] text-center mb-[80px]">
         {" "}
         About me{" "}
       </h2>
       {aboutData.map((item) => (
         <div
-          className="flex flex-col lg:flex-row w-full  mb-[50px]"
+          className="flex flex-col lg:flex-row w-full justify-around mb-[50px]"
           key={item.title}
         >
           <Image

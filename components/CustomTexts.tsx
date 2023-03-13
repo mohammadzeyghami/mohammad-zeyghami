@@ -11,7 +11,7 @@ type TextType = {
 export const TypingText = ({ title, textStyles }: TextType) => (
   <motion.p
     variants={textContainer}
-    className={`text-center text-[25px] font-bold text-secondary-white ${textStyles}`}
+    className={`text-center text-[22px] font-bold text-secondary-white ${textStyles}`}
   >
     {title &&
       Array.from(title).map((letter, index) => (
