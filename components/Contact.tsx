@@ -32,7 +32,8 @@ const Contact = () => {
       </motion.h2>
 
       <div className="flex flex-wrap gap-[10px] w-full">
-        <motion.div
+        <motion.a
+          href="https://github.com/mohammadzeyghami"
           whileHover={{ scale: 1.1 }}
           variants={staggerContainer()}
           initial="hidden"
@@ -41,9 +42,10 @@ const Contact = () => {
         >
           <SiGithub size={60} />
           <TypingText title="github" />
-        </motion.div>
+        </motion.a>
 
-        <motion.div
+        <motion.a
+          href="https://www.linkedin.com/in/mohammad-zeyghami-811468259/"
           whileHover={{ scale: 1.1 }}
           variants={staggerContainer()}
           initial="hidden"
@@ -52,8 +54,8 @@ const Contact = () => {
         >
           <SiLinkedin size={60} />
           <TypingText title="Linkdin" />
-        </motion.div>
-        <motion.div
+        </motion.a>
+        <motion.a
           whileHover={{ scale: 1.1 }}
           variants={staggerContainer()}
           initial="hidden"
@@ -62,7 +64,7 @@ const Contact = () => {
         >
           <SiGmail size={60} />
           <TypingText title="Gmail" />
-        </motion.div>
+        </motion.a>
       </div>
     </div>
   );

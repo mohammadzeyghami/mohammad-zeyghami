@@ -128,8 +128,8 @@ export const projects = [
     name: "Youtube Clone",
     Description:
       "a responsive React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from your  Clone App",
-    Address: "https://github.com/mohammadzeyghami/youtube",
-    Github: "https://zeyghami-youtube.netlify.app",
+    Address: "https://zeyghami-youtube.netlify.app",
+    Github: "https://github.com/mohammadzeyghami/youtube",
   },
   {
     image: [
@@ -142,8 +142,8 @@ export const projects = [
     name: "Modern Portfolio",
     Description:
       "in this websites use 3D graphics and animations to bring their content to life.  ",
-    Address: "https://github.com/mohammadzeyghami/zeyghami-portfolio",
-    Github: "https://mz-3dportfolio.netlify.app/",
+    Address: "https://mz-3dportfolio.netlify.app/",
+    Github: "https://github.com/mohammadzeyghami/zeyghami-portfolio",
   },
 ];
 export const aboutData = [

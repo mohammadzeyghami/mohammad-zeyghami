@@ -22,7 +22,11 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "pages/projects/index.jsx"
+    "pages/projects/index.jsx",
+    "public/about me/index.js",
+    "components/index.js",
+    "public/tech/index.js",
+    "public/projects/index.js"
   ],
   "exclude": ["node_modules"]
 }

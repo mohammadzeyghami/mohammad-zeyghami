@@ -36,7 +36,6 @@ const Projects = () => {
                 </motion.div>
 
                 <motion.div
-                  href={"www.google.com"}
                   whileHover={{ scale: 1.4 }}
                   className="cursor-pointer"
                 >
