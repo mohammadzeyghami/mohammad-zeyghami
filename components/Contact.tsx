@@ -1,6 +1,7 @@
 import React from "react";
 import { TypingText } from "./CustomTexts";
-import { staggerContainer } from "@/motions";
+import { staggerContainer, slideIn } from "@/motions";
+
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -20,42 +21,48 @@ import { Pagination } from "swiper";
 
 const Contact = () => {
   return (
-    <div className="flex  mt-[200px] w-full max-w-[1600px] mx-auto ">
-      <div className="w-full flex justify-around  mx-auto gap-[30px]  bg-[#221A2E] rounded-xl">
-        <div className="flex w-full flex-col">
-          <h2 className="text-center text-[28px] font-bold my-[30px]">
-            You Can Find Me By A Click :
-          </h2>
-          <div className="flex flex-col w-full justify-center gap-[50px]">
-            <motion.div
-              variants={staggerContainer()}
-              initial="hidden"
-              whileInView="show"
-              className="flex justify-center gap-10 w-full items-center"
-            >
-              <SiGithub size={60} />
-              <TypingText title="you can check my projects codes here" />
-            </motion.div>
-            <motion.div
-              variants={staggerContainer()}
-              initial="hidden"
-              whileInView="show"
-              className="flex justify-center gap-10 w-full items-center"
-            >
-              <SiLinkedin size={60} />
-              <TypingText title="you can check my projects codes here" />
-            </motion.div>{" "}
-            <motion.div
-              variants={staggerContainer()}
-              initial="hidden"
-              whileInView="show"
-              className="flex justify-center gap-10 w-full items-center"
-            >
-              <SiTelegram size={60} />
-              <TypingText title="you can check my projects codes here" />
-            </motion.div>
-          </div>
-        </div>
+    <div className="flex flex-col  mt-[200px] w-full max-w-[1600px] mx-auto ">
+      <motion.h2
+        variants={slideIn("up", "", 0.3, 0.5)}
+        initial="hidden"
+        whileInView="show"
+        className="text-center text-[28px] font-bold my-[30px]"
+      >
+        You Can Find Me By A Click :
+      </motion.h2>
+
+      <div className="flex flex-wrap gap-[10px] w-full">
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          variants={staggerContainer()}
+          initial="hidden"
+          whileInView="show"
+          className="flex justify-center cursor-pointer my-[20px]  gap-10 mx-auto  bg-[#221A2E] rounded-xl  py-[40px] items-center w-[400px]"
+        >
+          <SiGithub size={60} />
+          <TypingText title="github" />
+        </motion.div>
+
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          variants={staggerContainer()}
+          initial="hidden"
+          whileInView="show"
+          className="flex justify-center cursor-pointer gap-10 mx-auto my-[20px] bg-[#221A2E] rounded-xl  py-[40px] items-center w-[400px]"
+        >
+          <SiLinkedin size={60} />
+          <TypingText title="Linkdin" />
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          variants={staggerContainer()}
+          initial="hidden"
+          whileInView="show"
+          className="flex justify-center cursor-pointer my-[20px] gap-10 mx-auto  bg-[#221A2E] rounded-xl  py-[40px] items-center w-[400px]"
+        >
+          <SiGmail size={60} />
+          <TypingText title="Gmail" />
+        </motion.div>
       </div>
     </div>
   );

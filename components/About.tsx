@@ -9,20 +9,20 @@ const About = () => {
       </h2>
       {aboutData.map((item) => (
         <div
-          className="flex flex-col lg:flex-row w-full justify-around mb-[50px]"
+          className="flex flex-col justify-center items-center lg:flex-row w-full lg:justify-around mb-[50px]"
           key={item.title}
         >
           <Image
             src={item.img}
             alt={item.title}
-            className="w-[380px] h-[300px] object-cover lg:mr-[25px] xl:[100px] rounded-md"
+            className="w-[380px] h-[300px]  object-cover lg:mr-[25px] xl:[100px] rounded-md"
           />
 
           <div className="mt-[50px] lg:0 ">
-            <h3 className="text-center font-bold text-[30px] mb-[20px]">
+            <h3 className="text-center font-bold m text-[30px] mb-[20px]">
               {item.title}
             </h3>
-            <p className="w-[380px] lg:w-[600px] text-center font-semibold text-[20px]">
+            <p className="w-[380px]  lg:w-[600px] text-center font-semibold text-[20px]">
               {item.description}
             </p>
           </div>
