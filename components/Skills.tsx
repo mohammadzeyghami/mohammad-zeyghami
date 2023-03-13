@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { technologies } from "@/Datas";
-import { TypingText } from "./CustomTexts";
+import { slideIn } from "@/motions";
 import {
   staggerContainer,
   textContainer,
@@ -18,10 +18,13 @@ const Skills = () => {
       initial="hidden"
       animate="show"
     >
-      <h2 className="text-center">
+      <motion.h2
+        variants={slideIn("left", "", 0.3, 0.5)}
+        className="text-center text-[23px] font-bold"
+      >
         In these few years, I got acquainted with interesting technologies, you
         can see some of them here
-      </h2>
+      </motion.h2>
 
       <motion.div
         className="flex max-h-[600px] flex-wrap min-w-[100px]  flex-1 justify-center gap-5 lg:gap-10 items-center"
