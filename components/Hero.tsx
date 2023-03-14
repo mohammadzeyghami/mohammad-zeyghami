@@ -13,19 +13,21 @@ const Hero = () => {
       <motion.div
         variants={slideIn("left", "", "", 1)}
         initial="hidden"
-        animate="show"
+        whileInView="show"
         className=" w-full  max-h-[700px] h-full  "
       >
         <Image
+          width={500}
+          height={300}
           src={heroImage}
           alt="profileImage"
           className=" object-cover w-full  px-[10px] max-h-[700px]  rounded-2xl "
         />
       </motion.div>
       <motion.div
-        variants={slideIn("right", "", "", 1)}
+        variants={slideIn("", "", "", 1)}
         initial="hidden"
-        animate="show"
+        whileInView="show"
         className="lg:text-[22px] text-[18px] font-semibold text-center flex items-center my-[100px] justify-center"
       >
         <h5>{HeroDescription}</h5>

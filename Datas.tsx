@@ -43,9 +43,9 @@ import {
   modernportfolio5,
 } from "./public/projects";
 
-export const menuItems: string[] = ["Hero"];
+export const menuItems: string[] = ["Hero", "Skills", "Projects", "About"];
 export const HeroDescription: string =
-  "Hello, my name is Mohammad Zeyghmi, I am 23 years old, I am a frontend developer with a more than +3 years of experience.";
+  "Hello, my name is Mohammad Zeyghmi, I am 23 years old and i am a frontend developer with a more than +3 years of experience.";
 
 export const technologies = [
   {
@@ -165,12 +165,4 @@ export const aboutData = [
     description:
       "One of my pastimes is reading other people's codes, I really enjoy getting to know the style of each programmer's point of view towards the logic of the codes, and by doing this, I strengthen my algorithm writing power.",
   },
-];
-export const contact = [
-  { icon: SiInstagram, name: "instagram" },
-  { icon: SiTelegram, name: "telegram" },
-  { icon: AiFillPhone, name: "phone" },
-  { icon: SiGmail, name: "gmail" },
-  { icon: SiLinkedin, name: "linkdin" },
-  { icon: SiGithub, name: "github" },
 ];

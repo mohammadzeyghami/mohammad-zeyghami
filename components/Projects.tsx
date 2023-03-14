@@ -4,17 +4,30 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
 import { FaEye } from "react-icons/fa";
-import Link from "next/link";
+import { slideIn } from "@/motions";
+import { TypingText } from "./CustomTexts";
+import { staggerContainer } from "@/motions";
 
 const Projects = () => {
   return (
-    <motion.div className="flex flex-col mt-[200px] max-w-[1600px] mx-auto">
-      <motion.h2 className="font-bold text-[35px] text-center ">
-        Some of Projects i Build
-      </motion.h2>
+    <motion.div
+      variants={staggerContainer()}
+      initial="hidden"
+      whileInView="show"
+      className="flex flex-col mt-[200px] max-w-[1600px] mx-auto"
+      id="Projects"
+    >
+      <TypingText title="Some of Projects i Build" textStyles="text-[30px]" />
+
       <motion.div className="flex flex-wrap mt-[50px] gap-[20px]">
-        {projects.map((project) => (
-          <motion.div className="flex flex-col  gap-5 bg-[#221A2E] mx-auto rounded-md w-[300px] h-[600px]  md:w-[500px] md:h-[530px]   m-5 ">
+        {projects.map((project, i) => (
+          <motion.div
+            key={i}
+            variants={slideIn("", "", 0.3, 0.5)}
+            initial="hidden"
+            whileInView="show"
+            className="flex flex-col  gap-5 bg-[#221A2E] mx-auto rounded-md w-[300px] h-[600px]  md:w-[500px] md:h-[530px]   m-5 "
+          >
             <Image
               src={project.image[0]}
               alt={project.name}

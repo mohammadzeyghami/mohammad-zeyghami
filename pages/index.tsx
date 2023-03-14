@@ -1,8 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Hero, Projects, Skills, About, Contact, Footer } from "../components/";
+import { Hero, Projects, Skills, About, Footer } from "../components/";
 import styles from "@/styles/Home.module.css";
-import { projects } from "@/Datas";
 
 export default function Home() {
   return (
@@ -18,7 +16,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <About />
-      <Contact />
+
       <Footer />
     </>
   );
